@@ -32,6 +32,10 @@ This project involves the development of a chatbot using text classification, LS
 3. Once the model is trained, start the Streamlit app: `streamlit run app.py`
 4. Access the chatbot interface through the provided URL.
 
+### Deployment
+
+The project is deployed and accessible at: [InfoBot Deployment Site](https://infobot-sonityai.streamlit.app/)
+
 ## Limitations
 
 - Limited knowledge: The chatbot can only provide responses to questions it has encountered during training. It may not handle unfamiliar or out-of-scope questions effectively.
