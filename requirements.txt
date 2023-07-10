@@ -3,3 +3,4 @@ numpy
 joblib
 tensorflow
 pickle-mixin
+scikit-learn
