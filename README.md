@@ -60,7 +60,9 @@ To learn more about the InfoBot project, read our blog post: [Introducing InfoBo
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU Affero General Public License](LICENSE).
+
+The AGPL license requires anyone who uses the software over a network or as a service to make the source code available to the users interacting with that software. This license ensures that modifications and improvements made to the project are also shared with the community.
 
 ## Acknowledgments
 
