@@ -1,4 +1,4 @@
-# ChatBot Project
+InfoBot-SonityAI
 
 This project involves the development of a chatbot using text classification, LSTM, and machine learning techniques. The chatbot is designed to provide automated responses to common questions about the project owner. It aims to assist individuals who cannot directly reach the project owner by offering basic information in a convenient and accessible manner.
 
