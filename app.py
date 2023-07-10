@@ -41,7 +41,7 @@ def display_chat():
 # Create the main Streamlit app
 def main():
     st.subheader("InfoBot Project (Sonity AI)")
-    st.write("Welcome to the Chat Box app! This project demonstrates a basic chat application using machine learning techniques to provide instant and automated responses to user inquiries about a specific individual.")
+    st.write("Welcome to the Chat Box app! This project demonstrates a basic chat application using machine learning techniques to provide instant and automated responses to user inquiries about me.")
 
     # Create an input box for user to type messages
     user_input = st.text_input("Type your message here:")
