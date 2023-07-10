@@ -42,6 +42,10 @@ Access the [InfoBot Deployment Site](https://infobot-sonityai.streamlit.app/) to
 
 Feel free to ask questions or input your queries to get instant and automated responses from the InfoBot.
 
+## Blog
+
+To learn more about the InfoBot project, read our blog post: [Introducing InfoBot: Your Personal Information Assistant](https://medium.com/@davidsonity/introducing-infobot-your-personal-information-assistant-a9fb8cb7da71)
+
 ## Limitations
 
 - Limited knowledge: The chatbot can only provide responses to questions it has encountered during training. It may not handle unfamiliar or out-of-scope questions effectively.
