@@ -25,8 +25,8 @@ with open('label_encoder.pickle', 'rb') as l_handle:
     label_encoder = pickle.load(l_handle)
 
 # Load the rephrase JSON file and convert it to a dictionary
-# with open('dict_phrases.json', 'r') as file:
-#     dict_rephrase = json.load(file)
+with open('dict_phrases.json', 'r') as file:
+    dict_rephrase = json.load(file)
 
 
 # Create a queue to store chat messages
