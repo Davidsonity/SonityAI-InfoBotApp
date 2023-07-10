@@ -25,7 +25,7 @@ with open('label_encoder.pickle', 'rb') as l_handle:
     label_encoder = pickle.load(l_handle)
 
 # Load the rephrase JSON file and convert it to a dictionary
-with open('dict_phrases.json', 'r') as file:
+with open('dict_phrases2.json', 'r') as file:
     dict_rephrase = json.load(file)
 
 
