@@ -25,16 +25,22 @@ This project involves the development of a chatbot using text classification, LS
 1. Clone the repository: `git clone https://github.com/yourusername/chatbot-project.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 
-### Usage
+## App Deployment
 
-1. Ensure that the dataset file (`updated.csv`) is available in the project directory.
-2. Run the data preprocessing and model training script: `python train_model.py`
-3. Once the model is trained, start the Streamlit app: `streamlit run app.py`
-4. Access the chatbot interface through the provided URL.
+To deploy the InfoBot chat application, follow these steps:
 
-### Deployment
+1. Make sure you have the necessary dependencies installed, including TensorFlow, streamlit, numpy, and pickle.
+2. Copy the provided code for app deployment and save it to a file named `app.py`.
+3. Place the trained model (`model.h5`), tokenizer (`tokenizer.pickle`), label encoder (`label_encoder.pickle`), and rephrase dictionary (`dict_phrases.json`) in the same directory as `app.py`.
+4. Open a terminal or command prompt and navigate to the project directory.
+5. Run the Streamlit app using the command: `streamlit run app.py`.
+6. The app will launch in your default web browser, and you can start interacting with the InfoBot chat interface.
 
-The project is deployed and accessible at: [InfoBot Deployment Site](https://infobot-sonityai.streamlit.app/)
+Please note that the app requires an active internet connection to load the model and respond to user inputs.
+
+Access the [InfoBot Deployment Site](https://infobot-sonityai.streamlit.app/) to try out the app.
+
+Feel free to ask questions or input your queries to get instant and automated responses from the InfoBot.
 
 ## Limitations
 
