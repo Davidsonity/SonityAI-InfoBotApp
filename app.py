@@ -25,7 +25,7 @@ with open('label_encoder.pickle', 'rb') as l_handle:
     label_encoder = pickle.load(l_handle)
 
 # Load the rephrase JSON file and convert it to a dictionary
-with open('dict_phrases2.json', 'r') as file:
+with open('dict_phrases.json', 'r') as file:
     dict_rephrase = json.load(file)
 
 
@@ -41,7 +41,7 @@ def display_chat():
 # Create the main Streamlit app
 def main():
     st.subheader("InfoBot Project (Sonity AI)")
-    st.write("Welcome to the Chat Box app! This project demonstrates a basic chat application using machine learning techniques to provide instant and automated responses to user inquiries about me. You can start by asking me my name!")
+    st.write("Welcome to the Chat Box app! This project demonstrates a basic chat application using machine learning techniques to provide instant and automated responses to user inquiries about a specific individual.")
 
     # Create an input box for user to type messages
     user_input = st.text_input("Type your message here:")
